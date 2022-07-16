@@ -57,7 +57,7 @@ List of popular JavaScript topics and their code snippets!
 * In HTML, JavaScript is inserted in betweem <script> and </script> tags. It can be between <head> or <body> tags within a HTML doc.
 ```HTML
 <script>
-document.getElementById("demo").innerHTML = "My First JavaScript";
+    document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
 ```
 
@@ -136,41 +136,41 @@ function myFunction() {
 ## Comments
 
 ## Create Variables
-```HTML
+```js script
 var carName = "Ferrari";
 ```
 
 ## Create Functions
-```HTML
+```js script
 function myFunction() {
     // Do something  
 }
 ```
 
 ## Find HTML element
-```HTML
+```js script
 document.getElementById("demo");
 ```
 
 ## Set or Change text on click of HTML element 
 * Can use both double and single quotes for Strings
-```HTML
+```js script
 document.getElementById("demo").innerHTML = "Hello JavaScript";
 document.getElementById('demo').innerHTML = 'Hello JavaScript';
 ```
 
 ## Change style of HTML elements
-```HTML
+```js script
 document.getElementById("demo").style.fontSize = "35px";
 ```
 
 ## Hide HTML elements on click of HTML element
-```HTML
+```js script
 document.getElementById("demo").style.display = "none";
 ```
 
 ## Show HTML elements on click of HTML element
-```HTML
+```js script
 document.getElementById("demo").style.display = "block";
 ```
 
