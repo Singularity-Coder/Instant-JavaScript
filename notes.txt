@@ -1,9 +1,6 @@
-![alt text](https://github.com/Singularity-Coder/Instant-JavaScript/blob/main/assets/banner_javascript.png)
-# Instant JavaScript
-List of popular JavaScript topics and their code snippets!
 
-## demo.html
-```HTML
+// Refer demo.html
+
 <!DOCTYPE html>
 <html>
     
@@ -44,64 +41,49 @@ List of popular JavaScript topics and their code snippets!
 </body>
 
 </html>
-```
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## Background
-* HTML to define the content of web pages
-* CSS to specify the layout of web pages
-* JavaScript to program the behavior of web pages
+// HTML to define the content of web pages
+// CSS to specify the layout of web pages
+// JavaScript to program the behavior of web pages
 
-## Internal Script
-* In HTML, JavaScript is inserted in betweem <script> and </script> tags. It can be between <head> or <body> tags within a HTML doc.
-```HTML
+// Internal Script - In HTML, JavaScript is inserted in betweem <script> and </script> tags. It can be between <head> or <body> tags within a HTML doc.
 <script>
 document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
-```
 
-## External Script
 
-**Advantages**
-* It separates HTML and code
-* It makes HTML and JavaScript easier to read and maintain
-* Cached JavaScript files can speed up page loads
+// External Script
 
-**Link External Script**
-* Without any path: If the script is in the same directory.
-```HTML
+// Advantages
+- It separates HTML and code
+- It makes HTML and JavaScript easier to read and maintain
+- Cached JavaScript files can speed up page loads
+
+// Refer External Script
+- Without any path: If the script is in the same directory.
 <script src="myScript.js"></script>
-```
-* With a file path (like /js/): If the script is in different directory
-```HTML
+- With a file path (like /js/): If the script is in different directory
 <script src="/js/myScript.js"></script>
-```
-* With a full URL (a full web address)
-```HTML
+- With a full URL (a full web address)
 <script src="https://www.w3schools.com/js/myScript.js"></script>
-```
 
-**Create a file called myScript.js and add the behavior as shown below**
-```HTML
+// Create a file called myScript.js and add the behavior as shown below
 function myFunction() {
   document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
-```
-**Add the script as shown below in the HTML doc**
-```HTML
+// Add the script as shown below in the HTML doc.
 <script src="myScript.js"></script>
-```
 
-## Output
-* Writing into an HTML element, using innerHTML.
-```HTML
+
+
+// Output
+- Writing into an HTML element, using innerHTML.
 <script>
     document.getElementById("demo").innerHTML = 5 + 6;
 </script>
-```
-* Writing into the HTML output using document.write(). Use it for testing only.
-```HTML
+- Writing into the HTML output using document.write(). Use it for testing only.
 <body>
     <script>
         document.write(5 + 6);
@@ -111,71 +93,51 @@ function myFunction() {
         onclick="document.write(5 + 6)">Try it
     </button>
 </body>
-```
-* Writing into an alert box, using window.alert().
-```HTML
+- Writing into an alert box, using window.alert().
 <script>
     window.alert(5 + 6);
 </script>
-```
-* Writing into the browser console, using console.log(). Press F12 -> Console -> Reload Page
-```HTML
+- Writing into the browser console, using console.log(). Press F12 -> Console -> Reload Page
 <script>
     console.log(5 + 6);
 </script>
-```
-* Printing
-```HTML
+- Printing
 <body>
     <button 
         onclick="window.print()">
             Print this page
     </button>
 </body>
-```
-## Comments
 
-## Create Variables
-```HTML
+// Comments
+
+
+// Create Variables
 var carName = "Ferrari";
-```
 
-## Create Functions
-```HTML
+// Create Functions
 function myFunction() {
     // Do something  
 }
-```
 
-## Find HTML element
-```HTML
+// Find HTML element
 document.getElementById("demo");
-```
 
-## Set or Change text on click of HTML element 
-* Can use both double and single quotes for Strings
-```HTML
+// Set or Change text on click of HTML element - Can use both double and single quotes for Strings
 document.getElementById("demo").innerHTML = "Hello JavaScript";
 document.getElementById('demo').innerHTML = 'Hello JavaScript';
-```
 
-## Change style of HTML elements
-```HTML
+// Change style of HTML elements
 document.getElementById("demo").style.fontSize = "35px";
-```
 
-## Hide HTML elements on click of HTML element
-```HTML
+// Hide HTML elements on click of HTML element
 document.getElementById("demo").style.display = "none";
-```
 
-## Show HTML elements on click of HTML element
-```HTML
+// Show HTML elements on click of HTML element
 document.getElementById("demo").style.display = "block";
-```
 
-## References
-* https://www.w3schools.com/js/js_statements.asp
+// References
+https://www.w3schools.com/js/js_statements.asp
 
 
 

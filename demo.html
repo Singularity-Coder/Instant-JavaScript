@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <script>
+            function myFunction2() {
+                document.getElementById("demo").innerHTML = "Paragraph changed.";
+            }
+        </script>
+        <script src="myScript.js"></script>
+        <script src="myScript2.js"></script>
+    </head>
+
+<body>
+<!-- Image View -->
+<img id="myImage" src="my_image.png">
+
+<h2>JavaScript</h2>
+
+<!-- Text View -->
+<p id="demo"></p>
+
+<!-- Button -->
+<button 
+    type="button" 
+    onclick="document.getElementById('demo').innerHTML = Date()">
+        Show Date Time
+</button>
+
+<!-- New line -->
+<br><br>
+
+<button 
+    type="button" 
+    onclick="myFunction()">
+        Change paragraph Text
+</button>
+</body>
+
+</html>
